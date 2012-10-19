@@ -18,5 +18,3 @@ print "c2-x:", x
 x = fun3(x)
 print "c3-x:", x[0]
 
-
-
