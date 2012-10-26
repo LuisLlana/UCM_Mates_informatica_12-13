@@ -1,0 +1,481 @@
+% $Header: /cvsroot/latex-beamer/latex-beamer/solutions/conference-talks/conference-ornate-20min.en.tex,v 1.7 2007/01/28 20:48:23 tantau Exp $
+
+\documentclass[handout]{beamer}
+%\documentclass{beamer}
+% This file is a solution template for:
+
+% - Talk at a conference/colloquium.
+% - Talk length is about 20min.
+% - Style is ornate.
+
+
+
+% Copyright 2004 by Till Tantau <tantau@users.sourceforge.net>.
+%
+% In principle, this file can be redistributed and/or modified under
+% the terms of the GNU Public License, version 2.
+%
+% However, this file is supposed to be a template to be modified
+% for your own needs. For this reason, if you use this file as a
+% template and not specifically distribute it as part of a another
+% package/program, I grant the extra permission to freely copy and
+% modify this file as you see fit and even to delete this copyright
+% notice. 
+
+
+\mode<presentation>
+{
+  %\usetheme{Berlin}%{Warsaw}
+  %\usetheme{Boadilla}%{Warsaw}
+  \usetheme{Madrid}%{Warsaw}
+  % or ...
+
+  \setbeamercovered{transparent}
+  % or whatever (possibly just delete it)
+  
+  %\setbeameroption{show notes}
+
+
+}
+
+
+%\setbeameroption{show notes on second screen=left}%{show notes}
+
+%\usepackage[english]{babel}
+\usepackage[spanish]{babel}
+% or whatever
+\usepackage[latin9]{inputenc}
+% or whatever
+
+\usepackage{times}
+\usepackage[T1]{fontenc}
+% Or whatever. Note that the encoding and the font should match. If T1
+% does not look nice, try deleting the line with the fontenc.
+
+
+
+
+\title[Inform\'atica] % (optional, use only with long paper titles)
+{Inform\'atica}
+\subtitle{Grado en Matemáticas \\ Grado en Ingeniería Matemática \\  Grado en Matemáticas y Estadística \\
+Grupo D}
+\author[Escribano-Llana]{Jesús Escribano Martínez\\Luis Llana Díaz}
+\institute[UCM]{Departamento de Sistemas Informáticos y Computación\\Universidad Complutense de Madrid}
+\date{Curso 2012/2013}
+
+% - Give the names in the same order as the appear in the paper.
+% - Use the \inst{?} command only if the authors have different
+%   affiliation.
+
+% - Use the \inst command only if there are several affiliations.
+% - Keep it simple, no one is interested in your street address.
+
+
+% - Either use conference name or its abbreviation.
+% - Not really informative to the audience, more for people (including
+%   yourself) who are reading the slides online
+
+\subject{Theoretical Computer Science}
+% This is only inserted into the PDF information catalog. Can be left
+% out. 
+
+
+
+% If you have a file called "university-logo-filename.xxx", where xxx
+% is a graphic format that can be processed by latex or pdflatex,
+% resp., then you can add a logo as follows:
+
+% \pgfdeclareimage[height=0.5cm]{university-logo}{university-logo-filename}
+% \logo{\pgfuseimage{university-logo}}
+
+
+
+% Delete this, if you do not want the table of contents to pop up at
+% the beginning of each subsection:
+% \AtBeginSubsection[]
+% {
+%   \begin{frame}<beamer> \frametitle{Outline}
+%     \tableofcontents[currentsection,currentsubsection]
+%   \end{frame}
+% }
+
+
+% If you wish to uncover everything in a step-wise fashion, uncomment
+% the following command: 
+%\beamerdefaultoverlayspecification{<+->}
+
+
+\begin{document}
+
+\begin{frame}
+  \titlepage
+\end{frame}
+
+% \begin{frame}
+% \frametitle{Outline}
+%   \tableofcontents
+%   % You might wish to add the option [pausesections]
+% \end{frame}
+
+
+\section{Presentacion}
+
+\subsection{El profesor}
+
+\begin{frame}
+\frametitle{El profesor}
+%\framesubtitle{Subtitles are optional.}
+ 
+
+  \begin{itemize}
+  \item \textbf{Nombre}  Jes\'us Escribano Mart\'inez
+ \item \textbf{Departamento}  Sistemas Inform\'aticos y Computaci\'on
+ \item \textbf{Despacho} 452, Facultad de CC. Matem\'aticas
+ \item \textbf{Telef.}  91 394 4679
+\item \textbf{email} \texttt{jesus\underline{ }escribano@mat.ucm.es}
+\item \textbf{Tutorias Oficiales}  1$^{er}$C: L,M: 11:00-13:00. 2$^o$C:  L: 11:00-13:00, J: 10:00-12:00
+  \end{itemize}
+
+\pause
+Para las tutorias, es mejor concertar una \alert{cita previa} con 
+antelaci\'on.
+\end{frame}
+
+
+\begin{frame}
+\frametitle{Otros profesores}
+%\framesubtitle{Subtitles are optional.}
+ 
+\begin{itemize}
+\item Luis Llana (2$^o$ C, Teoría)
+\item Antonio Sarasa (1$^{er}$ C, prácticas)
+\item Ignacio Castiñeiras (1$^{er}$ C, prácticas)
+\item Adrián Riesco (2$^o$ C, prácticas)
+\end{itemize}
+
+
+\end{frame}
+
+
+\begin{frame}
+\frametitle{Comunicaci\'on}
+
+La comunicaci\'on del curso se realizar\'a 
+a trav\'es del Campus Virtual  \\
+\texttt{http://www.ucm.es/campusvirtual/}\pause
+
+
+Debes acceder habitualmente a dos espacios
+\begin{itemize}
+\item \alert{Informática FCM, 2012-13, grupo común} donde está toda la 
+información de la asignatura, común a todos los grupos. 
+\item \alert{INFORMATICA (1º Grupo D, 2012/2013)} donde está toda la 
+información específica del grupo D.
+\end{itemize}
+
+\end{frame}
+
+\begin{frame}
+\frametitle{Comunicaci\'on}
+
+\begin{itemize}
+\item \alert{TODA LA INFORMACIÓN DEL CURSO ESTARÁ EN EL CAMPUS VIRTUAL} No olvides
+revisarlo con regularidad. \pause
+\item Comprueba que los datos son correctos.
+  \begin{itemize}
+  \item Inserta una foto tuya reciente.
+    \item  Añade una dirección de e-mail que utilices normalmente, será una vía directa de comunicación.
+  \end{itemize}
+\item Se pondr\'a todo tipo de informaci\'on sobre el curso \pause
+  \begin{itemize}
+  \item Materiales del curso       \pause
+  \item  Citas para tutorias       \pause
+  \item Citas para entrega de pr\'acticas
+  \end{itemize}
+\end{itemize}
+
+\end{frame}
+
+
+\subsection{Contenido del curso}
+
+
+\begin{frame}
+\frametitle{Contenido del curso}
+%\framesubtitle{The proof uses \textit{reductio ad absurdum}.}
+
+Este curso consiste en una \alert{Introducci\'on a la Programaci\'on}.\pause
+
+Los conceptos b\'asicos son \emph{independientes} del lenguaje de programaci\'on utilizado. \pause
+
+Utilizaremos un lenguaje concreto: \alert{python}.\\
+\texttt{http://www.python.org/} \pause
+
+Texto básico: 
+Andrés Marzal e Isabel García 
+\alert{Introducción a la Programación con Python} \\
+Accesible en \texttt{https://arco.esi.uclm.es/public/doc/book/python.pdf}\pause
+
+Hay todo tipo de información adicional en el campus virtual.
+
+
+\end{frame}
+
+
+\begin{frame}
+\frametitle{Evaluaci\'on}
+\begin{block}{Ex\'amenes finales``tradicionales''}
+Convocatorias de  Junio y Septiembre. 
+\alert{50 \% de la nota.}
+\end{block} \pause
+\begin{block}{Pr\'actica obligatorias}
+La realización de una pr\'actica consiste en la escritura de un programa que resuelva un determinado problema. El c\'odigo del programa será entregado al profesor y se defenderá en una entrevista personal. 
+\alert{40 \% de la nota.}
+\end{block}
+\pause
+
+\begin{block}{Asistencia y Participación}
+Se valorará la asistencia regular a las clases, y la participación en las mismas. 
+\alert{10\% de la nota.}
+\end{block}
+\pause
+Para valorar una nota en los apartados anteriores, 
+es necesario que esta nota alcance al menos un 40\% de la nota máxima posible 
+en el apartado correspondiente. 
+
+%Ya hay \alert{hoja de ejercicios} disponibles en el Campus Virtual. 
+
+\end{frame}
+
+\begin{frame}
+\begin{center}
+\LARGE{EMPEZAMOS \dots }
+\end{center}
+\end{frame}
+
+
+\end{document}
+
+
+%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{frame}
+\frametitle{What's Still To Do?}
+\begin{columns}
+\column{.5\textwidth}
+\begin{block}{Answered Questions}
+How many primes are there?
+\end{block} \pause
+\column{.5\textwidth}
+\begin{block}{Open Questions}
+Is every even number the sum of two primes?
+\end{block}
+\end{columns}
+\end{frame}
+
+
+
+\begin{frame}[fragile]
+\frametitle{An Algorithm For Finding Primes Numbers.}
+\begin{verbatim}
+program probando;
+
+begin
+   writeln('Qué bonito es el beamer');
+end.
+
+\end{verbatim}
+\begin{uncoverenv}<2>
+Nice algorithm.
+\end{uncoverenv}
+
+\end{frame}
+
+
+
+
+
+
+
+\begin{frame}
+\frametitle{$P = NP?$}
+\begin{theorem}
+Se verifica que $P = NP$.
+\end{theorem}
+\begin{proof}
+?`No es evidente?
+\end{proof}
+\end{frame}
+
+
+
+\begin{frame}
+\frametitle{Resaltando}
+Aunque parezca mentira, \structure{esto es muy importante}.
+Adem\'as, esto es todavía \structure{más importante}.
+\begin{itemize}
+\item<1-> First point, shown on all slides.
+\item<2-> Second point, shown on slide 2 and later.
+\item<2-> Third point, also shown on slide 2 and later.
+\item<3-> Fourth point, shown on slide 3.
+\end{itemize}
+\end{frame}
+\begin{frame}
+\begin{enumerate}
+\item<3-| alert@3>[0.] A zeroth point, shown at the very end.
+\item<1-| alert@1> The first and main point.
+\item<2-| alert@2> The second point.
+\end{enumerate}
+\end{frame}
+
+
+
+
+\section{Our Results/Contribution}
+
+\subsection{Main Results}
+
+\begin{frame}
+\frametitle{Es útil trabajar con bloques}
+\begin{block}{primer bloque}
+  \begin{enumerate}
+  \item Primer bloque
+ \item Primer bloque
+  \end{enumerate}
+\end{block}
+
+\pause
+
+\begin{block}{segundo bloque}
+  \begin{itemize}
+  \item segundo bloque
+  \item segundo bloque
+  \item segundo bloque
+  \end{itemize}
+\end{block}
+\end{frame}
+
+\begin{frame}
+\frametitle{Cajas de colores}
+
+\setbeamercolor{rojo}{fg=black,bg=red}
+\begin{beamercolorbox}{rojo}
+Podemos poner cajas de colores
+\end{beamercolorbox}
+\pause
+\setbeamercolor{azul}{fg=black,bg=blue}
+\begin{beamercolorbox}{azul}
+Podemos poner cajas de colores, y luego cambiar el color.
+\end{beamercolorbox}
+\pause
+
+\setbeamercolor{postit}{fg=black,bg=yellow}
+\begin{beamercolorbox}[sep=1em,wd=5cm]{postit}
+Place me somewhere!
+\end{beamercolorbox}
+
+
+\end{frame}
+
+\begin{frame}
+\frametitle{Uso de columnas}
+
+\begin{columns}[t]
+\begin{column}{5cm}
+En la primera columna\\
+ponemos varias lineas. 
+\end{column}
+\pause
+\begin{column}{5cm}
+En la segundo columna ponemoso solo una 
+linea, pero alineada.  
+\end{column}
+\end{columns}
+
+\end{frame}
+
+
+\subsection{Basic Ideas for Proofs/Implementation}
+
+\begin{frame}
+\frametitle{Make Titles Informative.}
+\end{frame}
+
+\begin{frame}
+\frametitle{Make Titles Informative.}
+\end{frame}
+
+\begin{frame}
+\frametitle{Make Titles Informative.}
+\end{frame}
+
+
+
+\section*{Summary}
+
+\begin{frame}
+\frametitle{Summary}
+
+  % Keep the summary *very short*.
+  \begin{itemize}
+  \item
+    The \alert{first main message} of your talk in one or two lines.
+  \item
+    The \alert{second main message} of your talk in one or two lines.
+  \item
+    Perhaps a \alert{third message}, but not more than that.
+  \end{itemize}
+  
+  % The following outlook is optional.
+  \vskip0pt plus.5fill
+  \begin{itemize}
+  \item
+    Outlook
+    \begin{itemize}
+    \item
+      Something you haven't solved.
+    \item
+      Something else you haven't solved.
+    \end{itemize}
+  \end{itemize}
+\end{frame}
+
+
+
+% All of the following is optional and typically not needed. 
+\appendix
+\section<presentation>*{\appendixname}
+\subsection<presentation>*{For Further Reading}
+
+\begin{frame}[allowframebreaks]
+  \frametitle<presentation>{For Further Reading}
+    
+  \begin{thebibliography}{10}
+    
+  \beamertemplatebookbibitems
+  % Start with overview books.
+
+  \bibitem{Author1990}
+    A.~Author.
+    \newblock {\em Handbook of Everything}.
+    \newblock Some Press, 1990.
+ 
+    
+  \beamertemplatearticlebibitems
+  % Followed by interesting articles. Keep the list short. 
+
+  \bibitem{Someone2000}
+    S.~Someone.
+    \newblock On this and that.
+    \newblock {\em Journal of This and That}, 2(1):50--100,
+    2000.
+  \end{thebibliography}
+\end{frame}
+
+\end{document}
+
+
+
+
